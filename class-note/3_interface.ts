@@ -55,6 +55,7 @@ interface koreanFood extends food {
   spicy: string;
 }
 
+//spicy와 taste 속성이 모두 있어야 함
 let eat: koreanFood = {
   spicy: "hot",
   taste: "good",
